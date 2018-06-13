@@ -27,7 +27,7 @@ p {
 a {
   outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+  padding: 1px 1px 1px 1px;
 }
 
 a:link {
@@ -35,26 +35,28 @@ a:link {
 }
 
 a:visited {
-  color: #660066;
+  background: #aa00aa;
+  color: #ffddff;
 }
 
 a:focus {
   border-bottom: 1px solid black;
-  background: #BAE498;
+  background: #660066;
 }
 
 a:hover {
   border-bottom: 1px solid;
   background: #550055;
+  color: #ffddff;
 }
 
 a:active {
-  background: #265301;
-  color: #CDFEAA;
+  background: #990099;
+  color: #550055;
 }
 a#git-link:hover {
   border-color: #aa00aa;
-  background-color: #555555;
+  background-color: #777777;
 }
 .bar {
   display: flex;
@@ -83,47 +85,46 @@ a#git-link:hover {
   background-color: gray;
   padding: 2px;
   margin: 1px;
-  border-left: solid white 1px;
-  border-right: solid white 1px;
+  border: solid white 1px;
 }
-.git-div {
+.nav-div {
   border-style: solid;
   border-width: 1px;
   margin: 2px;
   padding:1px;
 }
-.git-div-1 {
+.nav-div-1 {
   height: 100px;
   border-color: red;
 }
-.git-div-1:hover {
+.nav-div-1:hover {
   border-color: blue;
 }
-.git-div-2{
+.nav-div-2{
   height: 91%;
   border-color:orange;
 }
-.git-div-2:hover {
+.nav-div-2:hover {
   border-color: green;
 }
-.git-div-3{
+.nav-div-3{
   height: 91%;
   border-color:green;
 }
-.git-div-3:hover {
+.nav-div-3:hover {
   border-color: orange;
 }
-.git-div-4{
+.nav-div-4{
   height: 91%;
   border-color:blue;
 }
 
-.git-div-4:hover {
+.nav-div-4:hover {
   border-color: red;
 }
 #git-link {
   display: block;
-  background-color: #333333;
+  background-color: #555555;
   width: 100px;
   height: 100px;
   margin: 2px;
